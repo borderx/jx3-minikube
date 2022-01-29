@@ -8,6 +8,7 @@ data:
     in_repo_config:
       enabled:
         borderx/jks-boot1: true
+        borderx/jkx-golang2: true
         borderx/jx-test3: true
         borderx/jx3-minikube: true
         borderx/jx4: true
@@ -26,6 +27,7 @@ data:
         skip-unknown-contexts: false
       merge_method:
         borderx/jks-boot1: merge
+        borderx/jkx-golang2: merge
         borderx/jx-test3: merge
         borderx/jx3-minikube: merge
         borderx/jx4: merge
@@ -44,6 +46,7 @@ data:
         repos:
         - borderx/jx3-minikube
         - borderx/jks-boot1
+        - borderx/jkx-golang2
         - borderx/jx-test3
         - borderx/jx4
         - borderx/jx5
@@ -60,6 +63,7 @@ data:
         repos:
         - borderx/jx3-minikube
         - borderx/jks-boot1
+        - borderx/jkx-golang2
         - borderx/jx-test3
         - borderx/jx4
         - borderx/jx5
