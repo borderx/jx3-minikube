@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        borderx/jx-test3: true
         borderx/jx3-minikube: true
     plank: {}
     pod_namespace: jx
@@ -19,6 +20,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        borderx/jx-test3: merge
         borderx/jx3-minikube: merge
       queries:
       - labels:
@@ -31,6 +33,7 @@ data:
         - needs-rebase
         repos:
         - borderx/jx3-minikube
+        - borderx/jx-test3
       - labels:
         - updatebot
         missingLabels:
@@ -41,6 +44,7 @@ data:
         - needs-rebase
         repos:
         - borderx/jx3-minikube
+        - borderx/jx-test3
       target_url: http://lighthouse-jx.192.168.64.3.nip.io/merge/status
 kind: ConfigMap
 metadata:
