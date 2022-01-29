@@ -1,0 +1,10 @@
+# Source: jkx-golang2/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: jkx-golang2-jkx-golang2
+  annotations:
+    meta.helm.sh/release-name: 'jkx-golang2'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'

@@ -1,0 +1,22 @@
+# Source: jkx-golang2/templates/ingress.yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    meta.helm.sh/release-name: 'jkx-golang2'
+  name: jkx-golang2
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  rules:
+    - http:
+        paths:
+          - pathType: ImplementationSpecific
+            backend:
+              service:
+                name: jkx-golang2
+                port:
+                  number: 80
+      host: jkx-golang2-jx-staging.192.168.64.3.nip.io
