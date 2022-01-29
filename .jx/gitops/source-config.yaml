@@ -12,6 +12,7 @@ spec:
     - name: jx4
     - name: jx5
     - name: jx7
+    - name: spoot
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
