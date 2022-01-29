@@ -12,6 +12,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - borderx/jkx-golang2
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - borderx/jx-test3
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -41,6 +45,11 @@ data:
           name: plugins
     external_plugins:
       borderx/jks-boot1:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
+      borderx/jkx-golang2:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
@@ -81,6 +90,22 @@ data:
     owners: {}
     plugins:
       borderx/jks-boot1:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      borderx/jkx-golang2:
       - approve
       - assign
       - blunderbuss
@@ -207,6 +232,9 @@ data:
       trusted_org: todo
     - repos:
       - borderx/jks-boot1
+      trusted_org: todo
+    - repos:
+      - borderx/jkx-golang2
       trusted_org: todo
     - repos:
       - borderx/jx-test3
