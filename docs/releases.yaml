@@ -187,13 +187,13 @@
   path: helmfiles/jx-staging/helmfile.yaml
   releases:
   - apiVersion: v1
-    appVersion: 0.0.1
+    appVersion: 0.0.2
     description: A Helm chart for Kubernetes
-    firstDeployed: "2022-01-29T15:54:57Z"
+    firstDeployed: "2022-01-29T16:58:46Z"
     icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
-    lastDeployed: "2022-01-29T15:54:57Z"
+    lastDeployed: "2022-01-29T16:58:46Z"
     name: jkx-golang2
     repositoryName: dev
     repositoryUrl: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts/
     resourcePath: config-root/namespaces/jx-staging/jkx-golang2
-    version: 0.0.1
+    version: 0.0.2

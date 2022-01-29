@@ -4,7 +4,7 @@ kind: Service
 metadata:
   name: jkx-golang2
   labels:
-    chart: "jkx-golang2-0.0.1"
+    chart: "jkx-golang2-0.0.2"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   annotations:
     meta.helm.sh/release-name: 'jkx-golang2'
