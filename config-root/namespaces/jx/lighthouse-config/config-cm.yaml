@@ -10,6 +10,7 @@ data:
         borderx/jx-test3: true
         borderx/jx3-minikube: true
         borderx/jx4: true
+        borderx/jx5: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -24,6 +25,7 @@ data:
         borderx/jx-test3: merge
         borderx/jx3-minikube: merge
         borderx/jx4: merge
+        borderx/jx5: merge
       queries:
       - labels:
         - approved
@@ -37,6 +39,7 @@ data:
         - borderx/jx3-minikube
         - borderx/jx-test3
         - borderx/jx4
+        - borderx/jx5
       - labels:
         - updatebot
         missingLabels:
@@ -49,6 +52,7 @@ data:
         - borderx/jx3-minikube
         - borderx/jx-test3
         - borderx/jx4
+        - borderx/jx5
       target_url: http://lighthouse-jx.192.168.64.3.nip.io/merge/status
 kind: ConfigMap
 metadata:

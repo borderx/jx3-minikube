@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: borderx
+    provider: github
+    repository: jx5
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: borderx-jx5
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/borderx/jx5.git
+  org: borderx
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx5
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/borderx/jx5
