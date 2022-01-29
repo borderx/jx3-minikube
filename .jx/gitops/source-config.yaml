@@ -11,6 +11,7 @@ spec:
     - name: jx-test3
     - name: jx4
     - name: jx5
+    - name: jx7
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
