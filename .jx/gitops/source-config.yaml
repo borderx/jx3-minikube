@@ -10,6 +10,7 @@ spec:
     repositories:
     - name: jx-test3
     - name: jx4
+    - name: jx5
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
