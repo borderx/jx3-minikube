@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: borderx
+    provider: github
+    repository: jks-boot1
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: borderx-jks-boot1
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/borderx/jks-boot1.git
+  org: borderx
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jks-boot1
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/borderx/jks-boot1
