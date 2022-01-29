@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: jks-boot1
+    - name: jkx-golang1
     - name: jx-test3
     - name: jx4
     - name: jx5
