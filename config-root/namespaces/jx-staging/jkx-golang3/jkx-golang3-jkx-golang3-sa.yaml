@@ -1,0 +1,10 @@
+# Source: jkx-golang3/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: jkx-golang3-jkx-golang3
+  annotations:
+    meta.helm.sh/release-name: 'jkx-golang3'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'

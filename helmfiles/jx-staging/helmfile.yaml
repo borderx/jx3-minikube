@@ -16,5 +16,7 @@ releases:
 - chart: dev/jkx-golang3
   version: 0.0.2
   name: jkx-golang3
+  values:
+  - jx-values.yaml
 templates: {}
 renderedvalues: {}
