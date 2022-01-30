@@ -10,6 +10,7 @@ spec:
     repositories:
     - name: jks-boot1
     - name: jkx-golang2
+    - name: jkx-golang3
     - name: jx-test3
     - name: jx4
     - name: jx5
