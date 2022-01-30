@@ -197,3 +197,14 @@
     repositoryUrl: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts/
     resourcePath: config-root/namespaces/jx-staging/jkx-golang2
     version: 0.0.2
+  - apiVersion: v1
+    appVersion: 0.0.2
+    description: A Helm chart for Kubernetes
+    firstDeployed: "2022-01-30T03:38:32Z"
+    icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
+    lastDeployed: "2022-01-30T03:38:32Z"
+    name: jkx-golang3
+    repositoryName: dev
+    repositoryUrl: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts/
+    resourcePath: config-root/namespaces/jx-staging/jkx-golang3
+    version: 0.0.2
